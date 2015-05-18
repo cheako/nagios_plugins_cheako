@@ -16,6 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 use common::sense;
+no re 'eval';
 
 use Proc::ProcessTable;
 use Nagios::Plugin;
